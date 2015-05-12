@@ -1,0 +1,111 @@
+<logs>
+	<AanvalLogs>
+		<log>%spelernaam% krijgt de bal toegespeeld, </log>
+		<log>%spelernaam% krijgt bal tussen zijn voeten, </log>
+		<log>%spelernaam% maakt een aanvallende beweging, </log>
+		<log>%spelernaam% gaat in de aanval, </log>
+		<log>%spelernaam% krijgt nu een kans, </log>
+		<log>%spelernaam% is nu aan de bal, </log>
+	</AanvalLogs>
+	
+	<VerdedigingLogs>
+		<log>hij speelt de verdediging sierlijk voorbij </log>
+		<log>hij maakt een panna en loopt de verdediding voorbij </log>
+		<log>het is alsof er geen verdediging staat, hij vliegt er met gemak langs </log>
+		<log>hij loopt als een keizer langs de verdediging </log>
+		<log>hij vecht zich een weg recht door de verdedigingslinie heen </log>
+		<log>hij zweeft met gemak tussen de verdediging door </log>
+	</VerdedigingLogs>
+		
+	<VerdedigingMisluktLogs>
+		<log>maar %spelernaam% zet zijn voet ervoor en de aanval is gestopt.</log>
+		<log>maar %spelernaam% zet een tackle in en stop de aanval.</log>
+		<log>maar op %spelernaam% had hij niet gerekend, deze maakt een einde aan de aanval.</log>
+		<log>maar %spelernaam% is een stuk sneller en hij heeft geen schijn van kans, de aanval is afgelopen.</log>
+		<log>maar hij kan %spelernaam% er niet uit spelen en zijn aanval is mislukt.</log>
+		<log>maar %spelernaam% stond er nog tussen, daar gaat zijn aanval.</log>
+	</VerdedigingMisluktLogs>
+	
+	<KeeperLogs>
+		<log>maar wat een geweldige redding van de keeper.</log>
+		<log>maar de keeper plukt de bal uit de lucht alsof het een appel is.</log>
+		<log>maar de keeper houdt de bal netjes uit het net.</log>
+		<log>maar de keeper doet zijn werk en tikt de bal weg.</log>
+		<log>maar de keeper laat de bal niet door.</log>
+		<log>recht in de handen van de keeper.</log>
+	</KeeperLogs>
+	
+	<BlessureLogs>
+		<log>Oeff, wat een lelijke val, het lijkt erop dat %spelernaam% een %blessure% heeft.</log>
+		<log>Ai, %spelernaam% smakt hard tegen de grond aan, hij ziet er naar uit dat hij een %blessure% heeft.</log>
+		<log>Auw, %spelernaam% krijgt een flinke klap, dat ziet er uit als een %blessure%.</log>
+		<log>Ouch, %spelernaam% gaat onderuit, dat moet wel een %blessure% zijn.</log>
+	</BlessureLogs>
+	
+	<KaartGeel1Logs>
+		<log>%spelernaam% krijgt een gele kaart voor onsportief gedrag.</log>
+		<log>Dat was zeker een overtreding, die gele kaart voor %spelernaam% heeft hij verdiend.</log>
+		<log>%spelernaam% krijgt hier een gele kaart voor, en terecht.</log>
+		<log>%spelernaam% krijgt hier een gele kaart voor.</log>
+	</KaartGeel1Logs>
+
+	<KaartGeel2Logs>
+		<log>%spelernaam% krijgt een gele kaart voor onsportief gedrag, hij had reeds geel en moet dus het veld af met een rode kaart.</log>
+		<log>%spelernaam% kan zich niet goed inhouden deze wedstrijd, dit is zijn tweede gele kaart.</log>
+		<log>%spelernaam% wordt het veld afgestuurd met een tweede gele kaart.</log>
+		<log>%spelernaam% maakt weer een heftige overtreding, hij moet het veld af met een tweede gele kaart.</log>
+	</KaartGeel2Logs>
+
+	<KaartRoodLogs>
+		<log>%spelernaam% krijgt een rode kaart voor zeer onsportief gedrag en moet het veld af.</log>
+		<log>%spelernaam% maakt een onvergeeflijke overtreding en wordt met een rode kaart het veld afgestuurd.</log>
+		<log>%spelernaam% maakt het nu wel heel bont, hier krijgt hij een rode kaart voor.</log>
+		<log>%spelernaam% is slecht bezig, die rode kaart heeft hij verdiend.</log>
+	</KaartRoodLogs>
+	
+	<SchotLogs>
+		<log>en daar volgt het schot, </log>
+		<log>en hij schiet op het doel, </log>
+		<log>en hij gaat direct voor het doel, </log>
+		<log>en hier komt het schot, </log>
+		<log>en dan nu het schot, </log>
+		<log>en hij schiet op doel, </log>
+	</SchotLogs>
+	
+	<SchotMisluktLogs>
+		<log>en het schot, maar helaas, hij raakt de paal.</log>
+		<log>en hij schiet op het doel, maar wel kilometers over.</log>
+		<log>en hij gaat direct voor het doel, maar de bal vliegt er net naast.</log>
+		<log>en hier komt het schot, helaas raakt hij de lat.</log>
+		<log>en dan nu het schot, helaas ramt hij hem keihard op de paal.</log>
+		<log>en hij probeert op doel te schieten, maar struikelt helaas over de bal.</log>
+	</SchotMisluktLogs>
+	
+	<GoalLogs>
+		<log>Goalll!!! Het staat nu %score1%-%score2%</log>
+		<log>Hij zit er in!!! Het staat nu %score1%-%score2%</log>
+		<log>Recht in de kruising, wat een prachtig doelpunt, de nieuwe stand is %score1%-%score2%</log>
+		<log>Perfect afgemaakt en gescoord! het staat nu %score1%-%score2%</log>
+	</GoalLogs>
+	
+	<CornerStartLogs>
+		<log>Corner. </log>
+		<log>Het is een corner. </log>
+		<log>Er komt een corner. </log>
+		<log>Ze mogen een corner nemen. </log>
+	</CornerStartLogs>
+	
+	<CornerLogs>
+		<log>De corner wordt genomen en gekopt door %spelernaam%. De bal komt perfect in de hoek.</log>
+		<log>De corner is aan %spelernaam%, hij schiet de bal prachtig voor.</log>
+		<log>De corner is voor %spelernaam%, hij wordt mooi genomen.</log>
+		<log>%spelernaam% neemt de corner en hij doet hem perfect.</log>
+	</CornerLogs>
+	
+	<CornerMisluktLogs>
+		<log>De corner wordt genomen en gekopt door %spelernaam%, maar hij kopt over. Goede poging.</log>
+		<log>De corner is aan %spelernaam%, maar hij schiet de bal helaas te ver.</log>
+		<log>De corner is voor %spelernaam%, hij glijdt echter uit en de bal rolt maar een paar meter het veld op.</log>
+		<log>%spelernaam% neemt de corner en hij doet het prima, maar jammer genoeg neemt de tegenstander de bal aan.</log>
+	</CornerMisluktLogs>
+</logs>

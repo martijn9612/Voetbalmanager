@@ -1,0 +1,356 @@
+/* Basis van ieder scherm */
+#pane {
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100.0% 100.0%;
+}
+
+
+/*
+ * Algemene opmaak
+ */
+Button {
+  	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0.0%, #f8c202 50.0%, #eea10b 100.0%),
+        linear-gradient(from 0.0% 0.0% to 15.0% 50.0%, rgba(255.0,255.0,255.0,0.9), rgba(255.0,255.0,255.0,0.0));
+    -fx-background-radius: 30.0;
+    -fx-background-insets: 0.0,1.0,2.0,3.0,0.0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 20.0px;
+    -fx-padding: 10.0 20.0 10.0 20.0;
+    -fx-alignment: center;
+    -fx-min-width: 200.0px;
+    -fx-cursor: hand;
+}
+Button:hover {
+	 -fx-background-color: 
+        linear-gradient(#e68400, #ffd65b),
+        linear-gradient(#f2ba44, #ffef84),
+        linear-gradient(#efaa22, #ffea6a),
+        linear-gradient(#eea10b 0.0%, #f8c202 50.0%, #ffe657 100.0%),
+        linear-gradient(from 0.0% 0.0% to 15.0% 50.0%, rgba(255.0,255.0,255.0,0.9), rgba(255.0,255.0,255.0,0.0));
+}
+#terugbutton {
+	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0.0%, #f8c202 50.0%, #eea10b 100.0%),
+        linear-gradient(from 0.0% 0.0% to 15.0% 50.0%, rgba(255.0,255.0,255.0,0.9), rgba(255.0,255.0,255.0,0.0));
+    -fx-background-radius: 30.0;
+    -fx-background-insets: 0.0,1.0,2.0,3.0,0.0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 18.0px;
+    -fx-padding: 10.0 20.0 10.0 20.0;
+    -fx-min-width: 40.0px;
+}
+#linkbox {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-background-radius: 30.0px;
+	-fx-background-insets: 10.0;
+	-fx-padding: 30.0;
+}
+#linkbutton {
+	-fx-background-insets: 2.0;
+}
+#huidigmenuButton {
+	-fx-background-insets: 2.0;
+  	-fx-background-color: 
+       linear-gradient(#D2691F,#DAA520),
+       linear-gradient(#efaa22,#A0522D),
+       linear-gradient(#DAA520,#D2691F),
+       linear-gradient(#FFA500 0.0%, #efaa22 50.0%, #A0522D 100.0%),
+       linear-gradient(from 0.0% 0.0% to 15.0% 50.0%, rgba(255.0,255.0,255.0,0.9), rgba(255.0,255.0,255.0,0.0));
+     -fx-text-fill: #ffef84;
+}
+#middlefield {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-background-radius: 30.0px;
+	-fx-background-insets: 10.0;
+	-fx-padding: 30.0;
+}
+
+
+/* 
+ * Titels en subtitels
+ */
+#titel {
+  	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0.0%, #f8c202 50.0%, #eea10b 100.0%),
+        linear-gradient(from 0.0% 0.0% to 15.0% 50.0%, rgba(255.0,255.0,255.0,0.9), rgba(255.0,255.0,255.0,0.0));
+    -fx-background-radius: 30.0;
+    -fx-background-insets: 0.0,1.0,2.0,3.0,0.0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 34.0px;
+    -fx-padding: 10.0 20.0 10.0 20.0;
+    -fx-alignment: center;
+    -fx-min-width: 200.0px;
+}
+#subtitel {
+	-fx-text-fill: #fff;
+	-fx-font-weight: bold;
+	-fx-font-size: 24.0px;
+}
+#subsubtitel {
+	-fx-text-fill: #fff;
+	-fx-font-size: 18.0px;
+}
+
+
+/*
+ * Tabellen
+ */
+.table-view {
+    -fx-background-radius: 10.0px; 
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 10;
+    -fx-font-size: 13px;
+}
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 10%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+.table-view .column-header .label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: #efaa22;
+    -fx-alignment: center-left;
+}
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #efaa22;
+    -fx-text-fill: #654b00;
+}
+
+
+/*
+ * Beginscherm
+ */
+#startscreen {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-max-width: 300.0px;
+	-fx-max-height: 400.0px;
+	-fx-background-radius: 30.0;
+    -fx-padding: 90.0, 35.0, 0.0, 0.0;
+}
+
+
+/*
+ * Je team om te spelen te selecteren
+ */
+ #teamscreen {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-min-width: 700.0px;
+	-fx-max-width: 1400.0px;
+	-fx-min-height: 600.0px;
+	-fx-max-height: 700.0px;
+	-fx-background-radius: 30.0;
+    -fx-padding: 90.0, 35.0, 0.0, 0.0;
+}
+#teambutton {
+	-fx-background-radius: 30.0;
+	-fx-background-insets: 10.0,10.0,10.0,10.0,10.0;
+	-fx-text-fill: #f8c202;
+	-fx-font-weight: bold;
+	-fx-font-size: 20.0px; 
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-min-width: 200.0px;
+	-fx-min-height: 150.0px;
+	-fx-padding: 10.0 20.0 10.0 20.0;
+	-fx-alignment: center;
+}
+#teambutton:hover {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.1);
+}
+
+
+/*
+ * Kiezen van opstelling(formatie)
+ */
+#opstellingen {
+	-fx-alignment: center;
+	-fx-hgap: 10.0;
+	-fx-vgap: 10.0;
+	-fx-min-width: 600.0;
+	-fx-min-height: 600.0;
+	-fx-padding: 10.0 20.0 10.0 20.0;
+}
+#opstellingkeuze {
+	-fx-background-image: url("voetbalveld.jpg");
+	/*-fx-align: center;*/
+	-fx-background-size: 100.0% 100.0%;
+	/*-fx-padding: 10 20 10 20;*/   
+	-fx-min-width: 200.0;
+	-fx-min-height: 200.0;
+	-fx-text-fill: #fff;
+}
+
+
+/*
+ * Opstelling van spelers op het veld
+ */
+#veldOpstelling {
+	-fx-background-image: url("voetbalveld.jpg");
+    /*-fx-background-repeat: no-repeat;*/
+    -fx-background-size: 100.0% 100.0%;
+	/*-fx-halignment: center;
+	/*-fx-padding: 150 30 30 30; 
+	/*-fx-min-width: 480;
+	-fx-max-width: 480;	
+	-fx-min-height: 720;
+	-fx-max-height: 720;
+	-fx-row-width: 500px;
+	/*-fx-hgap: 30;*/
+	-fx-vgap: 80.0;
+} 
+#opstellingPlek { 
+	-fx-background-color: rgba(0.0,0.0,0.0,0.5);
+    -fx-background-radius: 100.0;
+    /*-fx-background-insets: 0,1,2,3,0;*/
+    -fx-padding: 10.0;
+    -fx-alignment: center;
+    -fx-min-width: 80.0px;
+    -fx-min-height: 20.0px;
+}
+#opstellingPlek:hover { 
+	-fx-background-color: rgba(0.0,0.0,0.0,0.4);
+    -fx-background-radius: 100.0;
+    /*-fx-background-insets: 0,1,2,3,0;*/
+    -fx-padding: 10.0;
+    -fx-alignment: center;
+    -fx-min-width: 80.0px;
+    -fx-min-height: 20.0px;
+}
+#opstellingSpelerLabel {
+	-fx-text-fill: white;
+	-fx-text-alignment: center;
+}
+#spelerknop {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.2);
+	-fx-text-fill: white;
+	-fx-font-size: 16.0px;
+	-fx-text-alignment: left;
+	-fx-background-radius: 10.0px;
+	/*-fx-background-insets: 10;*/
+	-fx-padding: 5.0;	
+}
+#spelerknop:hover {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.1);
+	-fx-text-fill: white;
+	-fx-font-size: 16.0px;
+	-fx-text-alignment: left;
+	-fx-background-radius: 10.0px;
+	/*-fx-background-insets: 10;*/
+	-fx-padding: 5.0;	
+}
+#opgesteld {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.2);
+	-fx-text-fill: red;
+	-fx-font-size: 16.0px;
+	-fx-text-alignment: left;
+	-fx-background-radius: 10.0px;
+	/*-fx-background-insets: 10;*/
+	-fx-padding: 5.0;	
+}
+#opgesteld:hover {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-text-fill: red;
+	-fx-font-size: 16.0px;
+	-fx-text-alignment: left;
+	-fx-background-radius: 10.0px;
+	/*-fx-background-insets: 10;*/
+	-fx-padding: 5.0;	
+}
+#notificatie {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.0);
+	-fx-text-fill: #fff;
+	-fx-font-size: 12.0px;
+}
+
+
+/*
+ * Popup voor opslaan
+ */
+#popup {
+  	-fx-background-color: blue;	
+}
+
+
+/*
+ * Spel laden
+ */
+#laadbutton {
+	-fx-background-radius: 30.0;
+	-fx-background-insets: 10.0,10.0,10.0,10.0,10.0;
+	-fx-text-fill: #f8c202;
+	-fx-font-weight: bold;
+	-fx-font-size: 20.0px; 
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-min-width: 250.0px;
+	-fx-min-height: 200.0px;
+	-fx-padding: 10.0 20.0 10.0 20.0;
+	-fx-alignment: center;
+}
+#laadbutton:hover {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.1);
+}
+
+
+/*
+ * Opmaak voor wedstrijdcommentaar
+ */
+#commentaarscroll {
+	-fx-background-color: transparent;
+}
+#commentaarscroll > .viewport {
+	-fx-background-color: transparent;
+}
+#commentaarHBox {
+	-fx-background-color: rgba(255,255,255,0.8);
+	-fx-background-radius: 5;
+	/*-fx-pref-width: 999px;*/
+	-fx-border-insets: 10 10 10 10;
+	/*-fx-min-height: 40px;*/
+}
+#commentaartext {
+	-fx-text-fill: black;
+	-fx-font-size: 15px;
+}
+#commentaarbox {
+	-fx-spacing: 3px;
+	-fx-background-color: black;
+}
+
+
+/*
+ * Transfermarkt
+ */
+#mededeling {
+	-fx-font-weight: bold;
+	-fx-font-size: 20.0px;
+	-fx-text-fill: red;
+}
+#spelernaam {
+	-fx-font-weight:bold;
+	-fx-font-size: 20.0px;
+	-fx-text-fill: red;
+}

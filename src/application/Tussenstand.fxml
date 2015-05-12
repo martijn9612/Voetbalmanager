@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?> 
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="borderpane" fx:controller="application.TussenstandController" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+	<left>
+		<VBox fx:id="linkbox">
+			<children>
+			</children>
+		</VBox>
+	</left>
+	<center>
+		<VBox fx:id="middlefield">
+			<TableView fx:id="tableView" layoutX="35.0" layoutY="28.0" prefWidth="300.0" prefHeight="900.0">
+			
+			    <columns>
+			        <TableColumn prefWidth="100.0" text="Positie" fx:id="tPosition" />
+			        <TableColumn prefWidth="150.0" text="Teamnaam" fx:id="tTeamnaam" />
+			        <TableColumn prefWidth="100.0" text="Gespeeld" fx:id="tGespeeld" />
+			        <TableColumn prefWidth="125.0" text="Doelpunten" fx:id="tDoelpunten" />
+			        <TableColumn prefWidth="175.0" text="Tegendoelpunten" fx:id="tTegendoelpunten" />
+			        <TableColumn prefWidth="100.0" text="Punten" fx:id="tPunten" />
+			        <TableColumn prefWidth="125.0" text="Gewonnen" fx:id="tWins" />
+			        <TableColumn prefWidth="100.0" text="Verloren" fx:id="tLosses" />
+			        <TableColumn prefWidth="75.0" text="Gelijk" fx:id="tGelijk" />
+			        <TableColumn prefWidth="125.0" text="Doelsaldo" fx:id="tDoelsaldo" />
+			    </columns>
+		    </TableView>
+		</VBox>
+	</center>
+</BorderPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?> 
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<BorderPane fx:id="borderpane" fx:controller="application.OpstellingController" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+	<left>
+		<VBox fx:id="linkbox">
+			<children>
+			</children>
+		</VBox>
+	</left>
+	<center>
+		<VBox fx:id="middlefield">
+			<HBox>
+				<children>
+					<Label fx:id="titel" text="Teamopstelling" mnemonicParsing="false"></Label>
+				</children>
+			</HBox>
+			<children>
+				<GridPane fx:id="opstellingen">
+					
+				</GridPane>
+			</children>
+		</VBox>
+	</center>
+</BorderPane>

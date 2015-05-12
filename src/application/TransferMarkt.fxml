@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?> 
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="borderpane" fx:controller="application.TransferMarktController"
+	prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<left>
+		<VBox fx:id="linkbox">
+			<children>
+			</children>
+		</VBox>
+	</left>
+	<center>
+		<VBox fx:id="middlefield">
+
+			<ComboBox fx:id="selectTeam" layoutX="15.0" layoutY="33.0"
+				prefWidth="150.0"></ComboBox>
+			<TableView fx:id="tableView" layoutX="35.0" layoutY="28.0"
+				prefWidth="227.0">
+				<columns>
+					<TableColumn prefWidth="100.0" text="Naam" fx:id="tNaam" />
+					<TableColumn prefWidth="75.0" text="Status" fx:id="tStatus" />
+					<TableColumn prefWidth="100.0" text="Agressie" fx:id="tAgressie" />
+					<TableColumn prefWidth="100.0" text="Land" fx:id="tLand" />
+					<TableColumn prefWidth="125.0" text="Opgesteld" fx:id="tPositie" />
+					<TableColumn prefWidth="100.0" text="Type" fx:id="tType" />
+					<TableColumn prefWidth="100.0" text="Leeftijd" fx:id="tLeeftijd" />
+					<TableColumn prefWidth="125.0" text="Aanval" fx:id="tAanval" />
+					<TableColumn prefWidth="125.0" text="Verdediging" fx:id="tVerdediging" />
+					<TableColumn prefWidth="100.0" text="Keeper" fx:id="tKeeperskills" />
+					<TableColumn prefWidth="100.0" text="Conditie" fx:id="tConditie" />
+					<TableColumn prefWidth="100.0" text="Prijs" fx:id="tPrijs" />
+				</columns>
+			</TableView>
+			<Button fx:id="kiezen" text="Speler selecteren"
+				mnemonicParsing="false">
+			</Button>
+			<Label fx:id="mededeling" text="Spelernaam:">
+			</Label>
+			<Label fx:id="spelernaam"
+				text="Selecteer de speler waarop u een bod wilt uitbrengen.">
+			</Label>
+			<TextField fx:id="boduitbrengen" maxWidth="50" />
+			<Button fx:id="bodbutton" text="Bod uitbrengen"
+				mnemonicParsing="false">
+			</Button>
+			<Label fx:id="mededeling2" id="mededeling">
+			</Label>
+		</VBox>
+	</center>
+</BorderPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?> 
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="borderpane" fx:controller="application.CompetitieController" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+	<left>
+		<VBox fx:id="linkbox">
+			<children>
+			</children>
+		</VBox>
+	</left>
+	<center>
+		<VBox fx:id="middlefield">
+			<TableView fx:id="tableView" layoutX="35.0" layoutY="28.0" prefWidth="300.0" prefHeight="900.0">
+			    <columns>
+			        <TableColumn prefWidth="100.0" text="Week" fx:id="tWeek" />
+			        <TableColumn prefWidth="150.0" text="Team 1" fx:id="tTeam1" />
+			        <TableColumn prefWidth="150.0" text="Team 2" fx:id="tTeam2" />
+			        <TableColumn prefWidth="225.0" text="Uitslag" fx:id="tMessage" />
+			    </columns>
+		    </TableView>
+		</VBox>
+	</center>
+</BorderPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?> 
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+
+<BorderPane fx:controller="application.LaadSpelController" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+	<top>
+	</top>
+	<center>
+		<VBox fx:id="teamscreen">
+			<HBox> 
+				<children>
+					<Label fx:id="titel" text="Laad Spel" mnemonicParsing="false" ></Label>
+					<Label text="                                                                                                                                                                                                                                   "></Label>
+					<Button fx:id="terugbutton" text="Terug naar hoofdmenu" mnemonicParsing="false" /> 		
+				</children>
+			</HBox>
+			<Label fx:id="subtitel" text="Kies je opgeslagen spel" mnemonicParsing="false" >
+			</Label>
+			<children>
+				<GridPane fx:id="savegames"></GridPane>
+			<!-- 
+				<Button fx:id="slotA" id="laadbutton" text="Opgeslagen spel A" mnemonicParsing="false" >					
+ 	  		    </Button>
+				<Button fx:id="slotB" id="laadbutton" text="Opgeslagen spel B" mnemonicParsing="false" >					
+   			    </Button>
+   			-->				
+			</children>
+		</VBox>
+	</center>
+</BorderPane>
